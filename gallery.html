@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Swachh Bharat Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6e6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ecf0f1;
+            margin: 0 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        section {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            color: #3498db;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Swachh Bharat Website</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Work Area</h2>
+            <img src="loc.jpg" alt="Swachh Bharat Image 1">
+            <div class="image-description">My area of work</div>
+            <p>Explore the work area where we have actively contributed to the Swachh Bharat Abhiyan. Our efforts include cleanliness drives, awareness campaigns, and sustainable waste management practices.</p>
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <div class="gallery">
+                <img src="WhatsApp Image 2023-10-22 at 14.27.45_2a20d4d8.jpg" alt="Swachh Bharat Image 1">
+                <div class="conducted">conducted surves</div>
+
+                <img src="WhatsApp Image 2023-10-22 at 14.27.46_da86a7a4.jpg" alt="Swachh Bharat Image 2">
+                <div class="image-description">spread awareness</div>
+
+                <img src="WhatsApp Image 2023-10-22 at 14.27.47_d5855b35.jpg" alt="Swachh Bharat Image 3">
+                <div class="image-description">My social part</div>
+
+                <!-- Add more images and descriptions as needed -->
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
